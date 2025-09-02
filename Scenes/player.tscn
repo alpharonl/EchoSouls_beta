@@ -171,7 +171,7 @@ animation = &"Esquerda"
 visible = false
 shape = SubResource("RectangleShape2D_2hxjc")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="HitBox" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
 shape = SubResource("RectangleShape2D_x3wgy")

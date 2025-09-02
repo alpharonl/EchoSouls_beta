@@ -4,10 +4,31 @@ using System;
 public partial class Player : CharacterBody2D
 {
 	float speed = 200f;
+	public int vidaP = 100;
 	AnimatedSprite2D anim;
+	Area2D hitbox;
 	public override void _Ready()
 	{
 		anim = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+		hitbox = GetNode<Area2D>("HitBox");
+		hitbox.AreaEntered += OnHitBoxEntered;
+	}
+	private void OnHitBoxEntered(Area2D area)
+	{
+		if (area.IsInGroup(""))
+		{
+			TakeDamage(10);
+
+
+		}
+	}
+	public void TakeDamage(int damage)
+	{
+		vidaP -= damage;
+		if (vidaP <= 0)
+		{
+
+		}
 	}
 	public override void _PhysicsProcess(double delta)
 	{
@@ -37,7 +58,7 @@ public partial class Player : CharacterBody2D
 			anim.Play("Direita");
 			mov = true;
 		}
-		if(!mov)
+		if (!mov)
 		{
 			anim.Play("Parado");
 		}

@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://crgrjehrkgrh3"]
+[gd_scene load_steps=27 format=3 uid="uid://crgrjehrkgrh3"]
 
 [ext_resource type="Script" uid="uid://4oxqeqsqpgn5" path="res://Scripts/Player.cs" id="1_x3wgy"]
 [ext_resource type="Texture2D" uid="uid://dh6vdm15phpco" path="res://Assets/P_assets/Echo sprites andar direita.png" id="2_3smsa"]
@@ -157,6 +157,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2hxjc"]
 size = Vector2(20, 25)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x3wgy"]
+size = Vector2(20, 25)
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_x3wgy")
 
@@ -165,4 +168,10 @@ sprite_frames = SubResource("SpriteFrames_1fr6y")
 animation = &"Esquerda"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_2hxjc")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_x3wgy")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://b5gcasf4rw3eu"]
+[gd_scene load_steps=6 format=3 uid="uid://b5gcasf4rw3eu"]
 
 [ext_resource type="Script" uid="uid://dqx3saywisho4" path="res://Scripts/Clown.cs" id="1_coxnm"]
 [ext_resource type="Texture2D" uid="uid://dio1ualk87xe6" path="res://Assets/inimigo.png" id="2_co08l"]
@@ -17,6 +17,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_coxnm"]
 size = Vector2(32, 32)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_co08l"]
+size = Vector2(32, 32)
+
 [node name="Clown" type="CharacterBody2D"]
 script = ExtResource("1_coxnm")
 
@@ -24,4 +27,10 @@ script = ExtResource("1_coxnm")
 sprite_frames = SubResource("SpriteFrames_6whob")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_coxnm")
+
+[node name="AttackArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
+shape = SubResource("RectangleShape2D_co08l")

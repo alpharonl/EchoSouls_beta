@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "f/qbpdJCrd0reC7QZZ212kolGjSNRoBnKc1pMNc8JS9TQsbJAiNhWQB48WQ6hnyfOiYFeoiqeFP5J88/Q7TZGA==",
+  "success": true,
+  "projectFilePath": "/home/zhtyz/Documentos/echosouls_beta/echosouls_beta.csproj",
+  "expectedPackageFiles": [
+    "/home/zhtyz/.nuget/packages/godot.sourcegenerators/4.4.1/godot.sourcegenerators.4.4.1.nupkg.sha512",
+    "/home/zhtyz/.nuget/packages/godotsharp/4.4.1/godotsharp.4.4.1.nupkg.sha512",
+    "/home/zhtyz/.nuget/packages/godotsharpeditor/4.4.1/godotsharpeditor.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1757191806
+::res://Assets/::1756851041
+inimigo.png::CompressedTexture2D/CompressedTexture2D::7751288463923011475::1756850869::1756851041::1::::<><><>0<>0<>b33536ecbd0d4d6496ff23f38583598c<>res://.godot/imported/inimigo.png-85803fd68c18be893f1a08e42dbe4a19.ctex::
+::res://Assets/P_assets/::1756791767
+Echo Principal.png::CompressedTexture2D/CompressedTexture2D::3144319923666973668::1756601395::1756791767::1::::<><><>0<>0<>8ebbcd3ef2edf62d56e7016f27ffac7a<>res://.godot/imported/Echo Principal.png-e45fdd6a4ec45d76191633ccadbf0797.ctex::
+Echo sprites andar direita.png::CompressedTexture2D/CompressedTexture2D::7715860752979710198::1756601395::1756791767::1::::<><><>0<>0<>a5a32c205f23f5328d50b0a1fbccc518<>res://.godot/imported/Echo sprites andar direita.png-a5225fcf27c107f8ac90db73e4cba242.ctex::
+Echo sprites andar esquerda.png::CompressedTexture2D/CompressedTexture2D::2701658341255412201::1756601395::1756791767::1::::<><><>0<>0<>f7a45f88907bfa66c91ab392c72b87d9<>res://.godot/imported/Echo sprites andar esquerda.png-2224cd0f10166a488530f15295f74edd.ctex::
+Echo sprites andar pra frente.png::CompressedTexture2D/CompressedTexture2D::5603040506845038529::1756601395::1756791767::1::::<><><>0<>0<>4e3e88fdb6ba1655256688d91f7cdca0<>res://.godot/imported/Echo sprites andar pra frente.png-cd8888b64be6a00d081e823d6839c9e9.ctex::
+Echo sprites andar pra trás.png::CompressedTexture2D/CompressedTexture2D::3920074266497060808::1756601395::1756791767::1::::<><><>0<>0<>3322e28da153a26fb4667bb7ae76d989<>res://.godot/imported/Echo sprites andar pra trás.png-0a94cc3d18bc1a47ac0b8ef266715e29.ctex::
+::res://Scenes/::1757188803
+clown.tscn::PackedScene/PackedScene::4504594647829531052::1756929203::0::1::::<><><>0<>0<><>::uid://dqx3saywisho4::::res://Scripts/Clown.cs<>uid://dio1ualk87xe6::::res://Assets/inimigo.png
+dreamNode.tscn::PackedScene::6848274419812995029::1757188803::0::1::::<><><>0<>0<><>::uid://crgrjehrkgrh3::::res://Scenes/player.tscn<>uid://b5gcasf4rw3eu::::res://Scenes/clown.tscn
+player.tscn::PackedScene/PackedScene::5979486458472338046::1756929203::0::1::::<><><>0<>0<><>::uid://4oxqeqsqpgn5::::res://Scripts/Player.cs<>uid://dh6vdm15phpco::::res://Assets/P_assets/Echo sprites andar direita.png<>uid://beqx6hnqux8uf::::res://Assets/P_assets/Echo sprites andar esquerda.png<>uid://cl3fi14nk7swn::::res://Assets/P_assets/Echo sprites andar pra frente.png<>uid://bk2eqwfhdpqki::::res://Assets/P_assets/Echo Principal.png<>uid://bv36bykpx6gse::::res://Assets/P_assets/Echo sprites andar pra trás.png
+::res://Scripts/::1756854351
+Clown.cs::CSharpScript/CSharpScript::8331496495805237349::1756854351::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.cs::CSharpScript/CSharpScript::2065803053245970216::1756854320::0::1::::<>CharacterBody2D<><>0<>0<><>::

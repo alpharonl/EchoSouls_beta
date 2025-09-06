@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4tmcxq4scxe8"]
+
+[ext_resource type="PackedScene" uid="uid://crgrjehrkgrh3" path="res://Scenes/player.tscn" id="1_gr2dp"]
+[ext_resource type="PackedScene" uid="uid://b5gcasf4rw3eu" path="res://Scenes/clown.tscn" id="2_wev1y"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Dream" type="Node2D" parent="."]
+
+[node name="Player" parent="Dream" instance=ExtResource("1_gr2dp")]
+
+[node name="Clown" parent="Dream" instance=ExtResource("2_wev1y")]
+position = Vector2(50, 50)

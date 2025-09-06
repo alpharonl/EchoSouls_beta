@@ -24,7 +24,7 @@ public partial class Player : CharacterBody2D
 	}
 	public void TakeDamage(int damage)
 	{
-		vidaP -= damage;
+		vidaP -= damage;sdssd
 		if (vidaP <= 0)
 		{
 

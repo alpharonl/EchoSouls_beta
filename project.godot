@@ -12,7 +12,7 @@ config_version=5
 
 config/name="echosouls_beta"
 run/main_scene="uid://c4tmcxq4scxe8"
-config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 
 [dotnet]
 

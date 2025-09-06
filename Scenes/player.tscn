@@ -7,13 +7,13 @@
 [ext_resource type="Texture2D" uid="uid://bk2eqwfhdpqki" path="res://Assets/P_assets/Echo Principal.png" id="5_tx1dd"]
 [ext_resource type="Texture2D" uid="uid://bv36bykpx6gse" path="res://Assets/P_assets/Echo sprites andar pra trás.png" id="6_gymyn"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ir8iy"]
-atlas = ExtResource("2_3smsa")
-region = Rect2(0, 0, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_hqns4"]
 atlas = ExtResource("2_3smsa")
 region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ir8iy"]
+atlas = ExtResource("2_3smsa")
+region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x0ka3"]
 atlas = ExtResource("2_3smsa")
@@ -79,10 +79,10 @@ region = Rect2(96, 0, 32, 32)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ir8iy")
+"texture": SubResource("AtlasTexture_hqns4")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_hqns4")
+"texture": SubResource("AtlasTexture_ir8iy")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_x0ka3")
@@ -92,7 +92,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Direita",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -109,7 +109,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Esquerda",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -126,7 +126,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Frente",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -134,7 +134,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Parado",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -151,7 +151,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Tras",
-"speed": 5.0
+"speed": 6.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2hxjc"]
@@ -165,7 +165,8 @@ script = ExtResource("1_x3wgy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_1fr6y")
-animation = &"Esquerda"
+animation = &"Direita"
+frame_progress = 0.983639
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false

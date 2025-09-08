@@ -19,15 +19,14 @@ public partial class Player : CharacterBody2D
 		{
 			TakeDamage(10);
 
-
 		}
 	}
 	public void TakeDamage(int damage)
 	{
-		vidaP -= damage;sdssd
+		vidaP -= damage;
 		if (vidaP <= 0)
 		{
-
+			print("echo morreu XDDDDD");
 		}
 	}
 	public override void _PhysicsProcess(double delta)
@@ -58,7 +57,7 @@ public partial class Player : CharacterBody2D
 			anim.Play("Direita");
 			mov = true;
 		}
-		if (!mov)
+		else
 		{
 			anim.Play("Parado");
 		}

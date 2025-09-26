@@ -26,7 +26,7 @@ public partial class Player : CharacterBody2D
 		vidaP -= damage;
 		if (vidaP <= 0)
 		{
-			print("echo morreu XDDDDD");
+
 		}
 	}
 	public override void _PhysicsProcess(double delta)

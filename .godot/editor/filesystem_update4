@@ -1,1 +1,3 @@
 res://Scenes/dreamNode.tscn
+res://Scripts/Clown.cs
+res://Scripts/Player.cs

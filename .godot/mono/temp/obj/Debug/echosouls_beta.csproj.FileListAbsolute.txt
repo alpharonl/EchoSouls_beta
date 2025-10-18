@@ -9,10 +9,10 @@
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.AssemblyInfoInputs.cache
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.AssemblyInfo.cs
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.csproj.CoreCompileInputs.cache
-/home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.csproj.CopyComplete
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.dll
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/refint/echosouls_beta.dll
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.pdb
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.genruntimeconfig.cache
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/ref/echosouls_beta.dll
 /home/zhtyz/Documentos/echosouls_beta/.godot/mono/temp/obj/Debug/echosouls_beta.sourcelink.json
+/home/zhtyz/Documentos/EchoSouls_beta/.godot/mono/temp/obj/Debug/echosoul.22453810.Up2Date

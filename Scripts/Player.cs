@@ -4,7 +4,7 @@ using System;
 public partial class Player : CharacterBody2D
 {
 	float speed = 200f;
-	public int vidaP = 100;
+	public int lifeP = 100;
 	AnimatedSprite2D anim;
 	Area2D hitbox;
 	public override void _Ready()
@@ -23,10 +23,10 @@ public partial class Player : CharacterBody2D
 	}
 	public void TakeDamage(int damage)
 	{
-		vidaP -= damage;
-		if (vidaP <= 0)
+		lifeP -= damage;
+		if (lifeP <= 0)
 		{
-
+			
 		}
 	}
 	public override void _PhysicsProcess(double delta)
@@ -57,8 +57,8 @@ public partial class Player : CharacterBody2D
 			anim.Play("Direita");
 			mov = true;
 		}
-		else
-		{
+		if(!mov)
+		{	
 			anim.Play("Parado");
 		}
 		Position = pos;

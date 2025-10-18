@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("echosouls_beta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+149b20bc28daf0ddb0650febc66b8b6f25b07338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68f6ec60c556757c43810c416f8dfea1515ccf93")]
 [assembly: System.Reflection.AssemblyProductAttribute("echosouls_beta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("echosouls_beta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://djf3tts0mdagj"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.625
+anchor_bottom = 0.575
+metadata/_edit_use_anchors_ = true

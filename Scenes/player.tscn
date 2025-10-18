@@ -173,8 +173,10 @@ visible = false
 shape = SubResource("RectangleShape2D_2hxjc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
 
 [node name="HitBox" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_x3wgy")
